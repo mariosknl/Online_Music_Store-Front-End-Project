@@ -1,0 +1,22 @@
+@import './variables';
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin flexBetween($direction) {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin hoverEffects{
+    color: $dark-color;
+    background-color: $secondary-color;
+    box-shadow: 0 0 10px $secondary-color, 0 0 40px $secondary-color, 0 0 80px $secondary-color;
+    transition-delay: 0.2s;
+}

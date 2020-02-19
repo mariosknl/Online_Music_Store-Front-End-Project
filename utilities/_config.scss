@@ -1,0 +1,15 @@
+@import '../styles/variables';
+
+
+//Buttons
+.btn-primary {
+    background-color: $primary-color;
+    color: $white-color;
+    font-size: $sm-text;
+    font-weight: $text-normal;
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem 0.8rem;
+}
+
+

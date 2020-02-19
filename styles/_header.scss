@@ -1,0 +1,27 @@
+@import './variables';
+@import './mixin';
+@import '../utilities/config';
+
+
+
+header {
+    ul {
+        width: 100%;
+        height: 50px;
+        @include flexBetween(row);
+        background-color: $secondary-color;
+    }
+
+    li a {
+        color: $dark-color;
+        
+        &:hover {
+            @include hoverEffects;
+        }
+    }
+
+    & .right-side {
+        
+    }
+
+}
