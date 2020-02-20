@@ -245,7 +245,7 @@ header .header-form input[type=text] {
       grid-template-rows: 100%;
   gap: 40px;
   padding: 0 10.3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 12rem;
 }
 
 .hot-ads .img-ad {
@@ -313,15 +313,15 @@ header .header-form input[type=text] {
 }
 
 .card6-img {
-  background-image: url("/img/bass/gamma2.jpeg");
+  background-image: url("/img/bass/ibanez.jpg");
 }
 
 .card7-img {
-  background-image: url("/img/bass/gamma3.jpeg");
+  background-image: url("/img/bass/kg.jpg");
 }
 
 .card8-img {
-  background-image: url("/img/bass/gamma4.jpeg");
+  background-image: url("/img/bass/yahama.jpg");
 }
 
 .card {
@@ -336,13 +336,14 @@ header .header-form input[type=text] {
 .card .card-text .card-icons {
   width: 100%;
   position: relative;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
+  bottom: 1rem;
 }
 
 .card .card-text .card-icons .card-price {
   position: absolute;
   right: 0.5rem;
-  top: .6rem;
+  top: .7rem;
 }
 
 .sm-text {

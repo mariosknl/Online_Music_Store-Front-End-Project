@@ -1,4 +1,5 @@
 .category-text {
+
         p {
             margin-left: 0.5rem;
         }
@@ -25,15 +26,78 @@
     }
 
     .card6-img {
-        background-image: url('/img/bass/gamma2.jpeg');
+        background-image: url('/img/bass/ibanez.jpg');
     }
 
     .card7-img {
-        background-image: url('/img/bass/gamma3.jpeg');
+        background-image: url('/img/bass/kg.jpg');
     }
 
     .card8-img {
-        background-image: url('/img/bass/gamma4.jpeg');
+        background-image: url('/img/bass/yahama.jpg');
+    }
+
+    .card9-img {
+        background-image: url('/img/guitars/ibanez-eletric.jpg');
+    }
+
+    .card10-img {
+        background-image: url('/img/guitars/jackson.jpg');
+    }
+
+    .card11-img {
+        background-image: url('/img/guitars/ibanezrg21.jpg');
+    }
+
+    .card12-img {
+        background-image: url('/img/guitars/ibanezaw.jpg');
+    }
+
+    .card13-img {
+        background-image: url('/img/strings/yamaha.jpg');
+    }
+
+    .card14-img {
+        background-image: url('/img/strings/string.jpeg');
+    }
+
+    .card15-img {
+        background-image: url('/img/strings/jazz.jpeg');
+    }
+
+    .card16-img {
+        background-image: url('/img/strings/adagio.jpg');
+    }
+
+    .card17-img {
+        background-image: url('/img/case/case.jpg');
+    }
+
+    .card18-img  {
+        background-image: url('/img/case/AG3HC-large.jpg');
+    }
+
+    .card19-img {
+        background-image: url('/img/case/gearlux.jpg');
+    }
+    .card20-img {
+        background-image: url('/img/case/skb.jpg');
+    }
+
+    .card21-img {
+        background-image: url('/img/books/book.jpg');
+    }
+
+    .card22-img {
+        background-image: url('/img/books/theory.jpg');
+    }
+
+    .card23-img {
+        background-image: url('/img/books/classicaljpg.jpg');
+    }
+
+    .card24-img{
+        background-image: url('/img/books/piano.jpg');
     }
 
     .card {
@@ -43,17 +107,18 @@
         margin-left: 0.5rem;
         
 
-    .card-icons {
-        width: 100%;
-        position: relative;
-        margin-top: 2rem;
-        
+        .card-icons {
+            width: 100%;
+            position: relative;
+            margin-top: 1.5rem;
+            bottom: 1rem;
+            
 
-        & .card-price {
-        position: absolute;
-        right: 0.5rem;
-        top: .7rem;
-        }
+            & .card-price {
+            position: absolute;
+            right: 0.5rem;
+            top: .7rem;
+            }
     }
 }
 }
