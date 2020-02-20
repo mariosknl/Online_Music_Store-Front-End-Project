@@ -1,0 +1,56 @@
+.category-text p {
+  margin-left: 0.5rem;
+}
+
+.card1-img {
+  background-image: url("/img/guitars/gamma1.jpeg");
+}
+
+.card2-img {
+  background-image: url("/img/guitars/caraya c-55.jpeg");
+}
+
+.card3-img {
+  background-image: url("/img/guitars/yamaha cs40.jpg");
+}
+
+.card4-img {
+  background-image: url("/img/guitars/gamma2.jpeg");
+}
+
+.card5-img {
+  background-image: url("/img/bass/gamma.jpeg");
+}
+
+.card6-img {
+  background-image: url("/img/bass/gamma2.jpeg");
+}
+
+.card7-img {
+  background-image: url("/img/bass/gamma3.jpeg");
+}
+
+.card8-img {
+  background-image: url("/img/bass/gamma4.jpeg");
+}
+
+.card {
+  position: relative;
+}
+
+.card .card-text {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.card .card-text .card-icons {
+  width: 100%;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.card .card-text .card-icons .card-price {
+  position: absolute;
+  right: 0.5rem;
+  top: .7rem;
+}

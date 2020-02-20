@@ -14,11 +14,10 @@ header {
 
     li a {
         color: $dark-color;
-        font-size: $md-text;
 
         i {
-            font-size: $md-text;
             margin-left: 0.8rem;
+            
         }
     }
 
@@ -31,7 +30,7 @@ header {
         background-color: $secondary-color;
         border-radius: 5px;
         margin: 0 auto;
-        font-size: $lg-text;
+        
 
         select {
             width: 19%;

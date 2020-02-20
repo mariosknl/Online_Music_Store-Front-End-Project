@@ -1,9 +1,45 @@
+// Font Sizes
+.sm-text {
+    font-size: 1rem;
+}
+.normal-text{
+    font-size: 1.2rem;
+}
+.md-text{
+    font-size: 1.6rem;
+}
+
+.lg-text{
+    font-size: 2rem;
+}
+
+.title-text {
+    font-size: 2.4rem;
+}
+
+.xl-text {
+    font-size: 3rem;
+}
+
+//Font Weight
+.text-light {
+    font-weight: 300;
+}
+.text-normal{
+    font-weight: 400;
+}
+
+.text-medium {
+    font-weight: 600;
+}
+
+.text-bold {
+    font-weight: 700;
+}
 //Buttons
 .btn-primary {
     background-color: $primary-color;
     color: $white-color;
-    font-size: $sm-text;
-    font-weight: $text-normal;
     border: none;
     border-radius: 2px;
     padding: 0.5rem 0.8rem;
@@ -11,4 +47,45 @@
 
 .btn {
     padding: 1rem 2rem;
+}
+
+//Grid
+.cardsGrid {
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+//Cards
+.card {
+    position: relative;
+    border: 1px solid $secondary-color;
+    background-color: $white-color;
+    padding-bottom: .5rem;
+}
+
+//Card Images 
+.cardImg {
+    width: 100%;
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+//Sections
+.category {
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.category-text {
+    padding-left: 1rem;
+    @include flexStart(row);
+    padding: 1rem 0;
 }

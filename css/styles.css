@@ -69,11 +69,9 @@ header ul {
 
 header li a {
   color: #383838;
-  font-size: 1.6rem;
 }
 
 header li a i {
-  font-size: 1.6rem;
   margin-left: 0.8rem;
 }
 
@@ -86,7 +84,6 @@ header .header-form {
   background-color: #888888;
   border-radius: 5px;
   margin: 0 auto;
-  font-size: 2rem;
 }
 
 header .header-form select {
@@ -109,15 +106,53 @@ header .header-form input[type=text] {
 
 .home-page {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background: url("../img/audio-e-guitars-guitars-music-6966.jpg") bottom/cover no-repeat;
+}
+
+.sm-text {
+  font-size: 1rem;
+}
+
+.normal-text {
+  font-size: 1.2rem;
+}
+
+.md-text {
+  font-size: 1.6rem;
+}
+
+.lg-text {
+  font-size: 2rem;
+}
+
+.title-text {
+  font-size: 2.4rem;
+}
+
+.xl-text {
+  font-size: 3rem;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-normal {
+  font-weight: 400;
+}
+
+.text-medium {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 700;
 }
 
 .btn-primary {
   background-color: #D35366;
   color: #fff;
-  font-size: 1rem;
-  font-weight: 400;
   border: none;
   border-radius: 2px;
   padding: 0.5rem 0.8rem;
@@ -127,14 +162,63 @@ header .header-form input[type=text] {
   padding: 1rem 2rem;
 }
 
+.cardsGrid {
+  width: 100%;
+  height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #888888;
+  background-color: #fff;
+  padding-bottom: .5rem;
+}
+
+.cardImg {
+  width: 100%;
+  height: 60%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.category {
+  width: 95%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.category-text {
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1rem 0;
+}
+
 .container {
   width: 100%;
   position: relative;
 }
 
 .container h3 {
-  font-size: 2.4rem;
-  font-weight: text-bold;
   color: #888888;
   margin: 1.5rem 0;
   padding: 0 103px;
@@ -178,15 +262,11 @@ header .header-form input[type=text] {
 }
 
 .hot-ads .text h4 {
-  font-size: 3rem;
-  font-weight: 700;
   color: #D35366;
 }
 
 .hot-ads .text p {
   color: #383838;
-  font-size: 1.6rem;
-  font-weight: 400;
   position: absolute;
   top: 80px;
   line-height: 2.5rem;
@@ -194,10 +274,9 @@ header .header-form input[type=text] {
 
 .hot-ads .text .small {
   width: 17%;
-  font-size: 1.6rem;
   color: #383838;
   position: absolute;
-  top: 20rem;
+  top: 22rem;
 }
 
 .hot-ads .text .buttons {
@@ -207,16 +286,151 @@ header .header-form input[type=text] {
 
 .hot-ads .text .buttons i {
   padding-right: 0.5rem;
+}
+
+.category-text p {
+  margin-left: 0.5rem;
+}
+
+.card1-img {
+  background-image: url("/img/guitars/gamma1.jpeg");
+}
+
+.card2-img {
+  background-image: url("/img/guitars/caraya c-55.jpeg");
+}
+
+.card3-img {
+  background-image: url("/img/guitars/yamaha cs40.jpg");
+}
+
+.card4-img {
+  background-image: url("/img/guitars/gamma2.jpeg");
+}
+
+.card5-img {
+  background-image: url("/img/bass/gamma.jpeg");
+}
+
+.card6-img {
+  background-image: url("/img/bass/gamma2.jpeg");
+}
+
+.card7-img {
+  background-image: url("/img/bass/gamma3.jpeg");
+}
+
+.card8-img {
+  background-image: url("/img/bass/gamma4.jpeg");
+}
+
+.card {
+  position: relative;
+}
+
+.card .card-text {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.card .card-text .card-icons {
+  width: 100%;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.card .card-text .card-icons .card-price {
+  position: absolute;
+  right: 0.5rem;
+  top: .6rem;
+}
+
+.sm-text {
   font-size: 1rem;
 }
 
-.guitars {
+.normal-text {
+  font-size: 1.2rem;
+}
+
+.md-text {
+  font-size: 1.6rem;
+}
+
+.lg-text {
+  font-size: 2rem;
+}
+
+.title-text {
+  font-size: 2.4rem;
+}
+
+.xl-text {
+  font-size: 3rem;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-normal {
+  font-weight: 400;
+}
+
+.text-medium {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #D35366;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 0.5rem 0.8rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+}
+
+.cardsGrid {
+  width: 100%;
+  height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #888888;
+  background-color: #fff;
+  padding-bottom: .5rem;
+}
+
+.cardImg {
+  width: 100%;
+  height: 60%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.category {
   width: 95%;
   position: relative;
   margin: 0 auto;
 }
 
-.guitars .guitars-text {
+.category-text {
   padding-left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -231,120 +445,5 @@ header .header-form input[type=text] {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding: 2rem 0;
-}
-
-.guitars .guitars-text h5 {
-  font-size: 2rem;
-}
-
-.guitars .guitars-text h5 i {
-  margin-right: 0.5rem;
-}
-
-.guitars .guitars-text p {
-  font-size: 1.2rem;
-  margin-left: 0.5rem;
-}
-
-.guitars .guitars-grid {
-  width: 100%;
-  height: 40vh;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  padding-top: 1.5rem;
-  margin-bottom: 3rem;
-}
-
-.guitars .guitars-grid .card {
-  position: relative;
-  border: 1px solid #888888;
-  background-color: #fff;
-  padding-bottom: .5rem;
-}
-
-.guitars .guitars-grid .card1-img {
-  width: 100%;
-  height: 60%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("/img/guitars/gamma1.jpeg");
-}
-
-.guitars .guitars-grid .card2-img {
-  width: 100%;
-  height: 60%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("/img/guitars/caraya c-55.jpeg");
-}
-
-.guitars .guitars-grid .card3-img {
-  width: 100%;
-  height: 60%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("/img/guitars/yamaha cs40.jpg");
-}
-
-.guitars .guitars-grid .card4-img {
-  width: 100%;
-  height: 60%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("/img/guitars/gamma2.jpeg");
-}
-
-.guitars .guitars-grid .card-text {
-  margin-top: 1.5rem;
-  margin-left: 0.5rem;
-}
-
-.guitars .guitars-grid .card-title {
-  font-size: 2rem;
-}
-
-.guitars .guitars-grid .card-cond {
-  color: #D35366;
-}
-
-.guitars .guitars-grid .card-desc {
-  font-size: 1.2rem;
-}
-
-.guitars .guitars-grid .card-icons {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: relative;
-  margin-top: 2rem;
-}
-
-.guitars .guitars-grid .card-icons i {
-  font-size: 1.6rem;
-}
-
-.guitars .guitars-grid .card-icons .card-price {
-  color: #D35366;
-  font-size: 1.6rem;
-  position: absolute;
-  right: 0.5rem;
+  padding: 1rem 0;
 }

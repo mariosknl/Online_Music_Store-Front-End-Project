@@ -28,15 +28,11 @@
     
 
     h4 {
-            font-size: $xl-text;
-            font-weight: $text-bold;
             color: $primary-color;
         }
 
     p {
             color: $dark-color;
-            font-size: $md-text;
-            font-weight: $text-normal;
             position: absolute;
             top: 80px;
             line-height: 2.5rem;
@@ -44,10 +40,9 @@
 
     .small {
         width: 17%;
-        font-size: $md-text;
         color: $dark-color;
         position: absolute;
-        top: 20rem;
+        top: 22rem;
     }
 
     .buttons {
@@ -56,7 +51,6 @@
 
         i {
             padding-right: 0.5rem;
-            font-size: 1rem;
         }
         
     }
