@@ -1,0 +1,22 @@
+
+    .container {
+        width: 100%;
+        position: relative;
+        
+
+        h3 {
+            font-size: $title-text;
+            font-weight: text-bold;
+            color: $secondary-color;
+            margin: 1.5rem 0;
+            padding: 0 103px;
+        }
+    }
+
+    .container-inner {
+        width: 100%;
+        height: 100vh;
+        background-color: #F9F9F9;
+        position: relative;
+        margin: 0 auto;
+    }

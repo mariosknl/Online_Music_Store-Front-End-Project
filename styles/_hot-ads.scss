@@ -1,0 +1,64 @@
+.hot-ads {
+    width: 100%;
+    height: 30vh;
+    font-family: 'Helvetica-Neue-Medium', 'Helvetica-Neue-Light', 'Helvetica-Neue-Bold';
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-template-rows: 100%;
+    gap: 40px;
+    padding: 0 10.3rem;
+    margin-bottom: 6rem;
+    
+    
+    
+    
+
+    & .img-ad {
+        width: 100%;
+        background-image: url('/img/guitars/gamma1.jpeg');
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    & .text {
+        width: 100%;
+        margin-top: 1rem;
+    
+
+    h4 {
+            font-size: $xl-text;
+            font-weight: $text-bold;
+            color: $primary-color;
+        }
+
+    p {
+            color: $dark-color;
+            font-size: $md-text;
+            font-weight: $text-normal;
+            position: absolute;
+            top: 80px;
+            line-height: 2.5rem;
+        }
+
+    .small {
+        width: 17%;
+        font-size: $md-text;
+        color: $dark-color;
+        position: absolute;
+        top: 20rem;
+    }
+
+    .buttons {
+        position: absolute;
+        top: 25rem;
+
+        i {
+            padding-right: 0.5rem;
+            font-size: 1rem;
+        }
+        
+    }
+    }
+}

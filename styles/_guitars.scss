@@ -1,0 +1,89 @@
+.guitars {
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+
+    .guitars-text {
+        
+        padding-left: 1rem;
+        @include flexStart(row);
+        padding: 2rem 0;
+
+        h5 {
+            font-size: $lg-text;
+
+            i {
+                margin-right: 0.5rem;
+            }
+        }
+
+        p {
+            font-size: $text;
+            margin-left: 0.5rem;
+        }
+    }
+
+    & .guitars-grid {
+        @include cardsGrid;
+
+        .card {
+    @include card;
+    }
+    
+    .card1-img {
+        @include cardImg;
+        
+        background-image: url('/img/guitars/gamma1.jpeg');
+        }
+
+    .card2-img {
+        @include cardImg;
+        background-image: url('/img/guitars/caraya\ c-55.jpeg');
+        }
+
+    .card3-img {
+        @include cardImg;
+        background-image: url('/img/guitars/yamaha\ cs40.jpg');
+        }
+
+    .card4-img {
+        @include cardImg;
+        background-image: url('/img/guitars/gamma2.jpeg');
+        }
+
+    .card-text {
+        margin-top: 1.5rem;
+        margin-left: 0.5rem;
+        }
+
+    .card-title {
+            font-size: $lg-text;
+        }
+
+    .card-cond {
+            color: $primary-color;
+        }
+
+        .card-desc {
+            font-size: $text;
+        }
+
+        .card-icons {
+            width: 100%;
+            @include flexStart(row);
+            position: relative;
+            margin-top: 2rem;
+
+            i{
+                font-size: $md-text;
+            }
+
+            .card-price {
+                color: $primary-color;
+                font-size: $md-text;
+                position: absolute;
+                right: 0.5rem;
+            }
+        }
+    }
+}
