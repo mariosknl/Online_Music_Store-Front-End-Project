@@ -1,9 +1,3 @@
-@import './variables';
-@import './mixin';
-@import '../utilities/config';
-
-
-
 header {
     ul {
         width: 100%;
@@ -19,9 +13,4 @@ header {
             @include hoverEffects;
         }
     }
-
-    & .right-side {
-        
-    }
-
 }
