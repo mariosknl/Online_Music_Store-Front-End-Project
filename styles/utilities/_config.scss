@@ -80,10 +80,13 @@
     border: none;
     border-radius: 2px;
     padding: 0.5rem 0.8rem;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .btn {
     padding: 1rem 2rem;
+    cursor: pointer;
 }
 
 //Grid

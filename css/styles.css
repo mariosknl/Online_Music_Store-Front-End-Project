@@ -66,8 +66,22 @@ header ul {
           flex-direction: row;
 }
 
+header ul button:hover {
+  background-color: #888888;
+  color: #D35366;
+  -webkit-box-shadow: 0 0 5px #383838, 0 0 25px #383838, 0 0 50px #383838, 0 0 100px #383838;
+          box-shadow: 0 0 5px #383838, 0 0 25px #383838, 0 0 50px #383838, 0 0 100px #383838;
+}
+
 header li a i {
   margin-left: 0.8rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header li a:hover {
+  background-color: #383838;
+  color: #D35366;
 }
 
 header .header-form {
@@ -182,10 +196,13 @@ header .header-form input[type=text] {
   border: none;
   border-radius: 2px;
   padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .btn {
   padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 .cardsGrid {
@@ -525,10 +542,13 @@ header .header-form input[type=text] {
   border: none;
   border-radius: 2px;
   padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .btn {
   padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 .cardsGrid {
@@ -710,25 +730,25 @@ footer .social-links ul {
   margin: 5rem auto;
 }
 
-.shopping-cart #bubble-1 {;
-  -webkit-animation: middle 1s linear infinite;
-          animation: middle 1s linear infitite;
+.shopping-cart #bubble-1 {
+  -webkit-animation: middle 1.2s linear infitite;
+          animation: middle 1.2s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
   transform-box: fill-box;
 }
 
-.shopping-cart #bubble-2 {;
-  -webkit-animation: middle 1s linear infinite;
-          animation: middle 1s linear infitite;
+.shopping-cart #bubble-2 {
+  -webkit-animation: middle 1.4s linear infitite;
+          animation: middle 1.4s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
   transform-box: fill-box;
 }
 
-.shopping-cart #bubble-3 {;
-  -webkit-animation: middle 1s linear infinite;
-          animation: middle 1s linear infitite;
+.shopping-cart #bubble-3 {
+  -webkit-animation: middle 1.8s linear infitite;
+          animation: middle 1.8s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
   transform-box: fill-box;
@@ -742,16 +762,16 @@ footer .social-links ul {
   transform-box: fill-box;
 }
 
-.shopping-cart #big-bubble-left {;
-  -webkit-animation: small 1.5s linear infinite;
+.shopping-cart #big-bubble-left {
+  -webkit-animation: small 1.5s linear infitite;
           animation: small 1.5s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
   transform-box: fill-box;
 }
 
-.shopping-cart #right-note {;
-  -webkit-animation: big 2.5s linear infinite;
+.shopping-cart #right-note {
+  -webkit-animation: big 2.5s linear infitite;
           animation: big 2.5s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
