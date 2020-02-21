@@ -226,8 +226,8 @@ header .header-form input[type=text] {
 
 .container-inner {
   width: 100%;
-  height: 100vh;
-  background-color: #F9F9F9;
+  height: 100%;
+  background-color: #d1caca;
   position: relative;
   margin: 0 auto;
 }
@@ -322,6 +322,70 @@ header .header-form input[type=text] {
 
 .card8-img {
   background-image: url("/img/bass/yahama.jpg");
+}
+
+.card9-img {
+  background-image: url("/img/guitars/ibanez-eletric.jpg");
+}
+
+.card10-img {
+  background-image: url("/img/guitars/jackson.jpg");
+}
+
+.card11-img {
+  background-image: url("/img/guitars/ibanezrg21.jpg");
+}
+
+.card12-img {
+  background-image: url("/img/guitars/ibanezaw.jpg");
+}
+
+.card13-img {
+  background-image: url("/img/strings/yamaha.jpg");
+}
+
+.card14-img {
+  background-image: url("/img/strings/string.jpeg");
+}
+
+.card15-img {
+  background-image: url("/img/strings/jazz.jpeg");
+}
+
+.card16-img {
+  background-image: url("/img/strings/adagio.jpg");
+}
+
+.card17-img {
+  background-image: url("/img/case/case.jpg");
+}
+
+.card18-img {
+  background-image: url("/img/case/AG3HC-large.jpg");
+}
+
+.card19-img {
+  background-image: url("/img/case/gearlux.jpg");
+}
+
+.card20-img {
+  background-image: url("/img/case/skb.jpg");
+}
+
+.card21-img {
+  background-image: url("/img/books/book.jpg");
+}
+
+.card22-img {
+  background-image: url("/img/books/theory.jpg");
+}
+
+.card23-img {
+  background-image: url("/img/books/classicaljpg.jpg");
+}
+
+.card24-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/51jY0-iHHpL._SX260_.jpg");
 }
 
 .card {
@@ -447,4 +511,8 @@ header .header-form input[type=text] {
       -ms-flex-direction: row;
           flex-direction: row;
   padding: 1rem 0;
+}
+
+footer {
+  width: 100%;
 }

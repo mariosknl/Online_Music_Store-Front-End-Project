@@ -1,5 +1,3 @@
-@import 'variables';
-
 @mixin flexStart($direction) {
     display: flex;
     justify-content: flex-start;

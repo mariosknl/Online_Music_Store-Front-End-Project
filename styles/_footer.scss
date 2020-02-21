@@ -1,0 +1,22 @@
+footer {
+    width: 100%;
+    height: 2rem;
+    position: relative;
+    background-color: seagreen;
+    
+    p{
+        color: $secondary-text;
+        margin-left: 1rem;
+    }
+
+    .social-links {
+        position: absolute;
+        right: 1rem;
+
+        ul {
+            width: 100%;
+            height: 100%;
+            @include flexCenter(row);
+        }
+    }
+}
