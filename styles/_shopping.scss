@@ -1,0 +1,71 @@
+.shopping-cart {
+    width: 70%;
+    margin: 5rem auto;
+
+
+#bubble-1 {
+    animation: middle 1s linear infitite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#bubble-2 {
+    animation: middle 1s linear infitite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#bubble-3 {
+    animation: middle 1s linear infitite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#big-bubble-right{
+    animation: small 2s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#big-bubble-left{
+    animation: small 1.5s linear infitite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#right-note {
+    animation: big 2.5s linear infitite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#left-note {
+    animation: big 2s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes big {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(30deg);
+    }
+}
+
+@keyframes small {
+    from {
+        transform: skewY(0deg);
+    }
+    to {
+        transform: skewY(120deg); 
+    }
+}
+
+@keyframes middle {
+    from {
+        transform: skewY(120deg);
+    }
+    to {
+        transform: skewY(0deg);
+    }
+}
+
+}

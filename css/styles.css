@@ -704,3 +704,130 @@ footer .social-links ul {
 .card-collection .img7-collection {
   background-image: url("/img/bass/kg.jpg");
 }
+
+.shopping-cart {
+  width: 70%;
+  margin: 5rem auto;
+}
+
+.shopping-cart #bubble-1 {;
+  -webkit-animation: middle 1s linear infinite;
+          animation: middle 1s linear infitite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #bubble-2 {;
+  -webkit-animation: middle 1s linear infinite;
+          animation: middle 1s linear infitite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #bubble-3 {;
+  -webkit-animation: middle 1s linear infinite;
+          animation: middle 1s linear infitite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #big-bubble-right {
+  -webkit-animation: small 2s linear infinite;
+          animation: small 2s linear infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #big-bubble-left {;
+  -webkit-animation: small 1.5s linear infinite;
+          animation: small 1.5s linear infitite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #right-note {;
+  -webkit-animation: big 2.5s linear infinite;
+          animation: big 2.5s linear infitite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #left-note {
+  -webkit-animation: big 2s linear infinite;
+          animation: big 2s linear infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes big {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(30deg);
+            transform: rotateZ(30deg);
+  }
+}
+
+@keyframes big {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(30deg);
+            transform: rotateZ(30deg);
+  }
+}
+
+@-webkit-keyframes small {
+  from {
+    -webkit-transform: skewY(0deg);
+            transform: skewY(0deg);
+  }
+  to {
+    -webkit-transform: skewY(120deg);
+            transform: skewY(120deg);
+  }
+}
+
+@keyframes small {
+  from {
+    -webkit-transform: skewY(0deg);
+            transform: skewY(0deg);
+  }
+  to {
+    -webkit-transform: skewY(120deg);
+            transform: skewY(120deg);
+  }
+}
+
+@-webkit-keyframes middle {
+  from {
+    -webkit-transform: skewY(120deg);
+            transform: skewY(120deg);
+  }
+  to {
+    -webkit-transform: skewY(0deg);
+            transform: skewY(0deg);
+  }
+}
+
+@keyframes middle {
+  from {
+    -webkit-transform: skewY(120deg);
+            transform: skewY(120deg);
+  }
+  to {
+    -webkit-transform: skewY(0deg);
+            transform: skewY(0deg);
+  }
+}
