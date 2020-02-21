@@ -8,6 +8,7 @@
     position: relative;
     margin: 1rem;
 
+        
     .img-collection {
         background-image: url('/img/guitars/gamma1.jpeg');
     }
@@ -34,5 +35,11 @@
 
     .img7-collection {
         background-image: url('/img/bass/kg.jpg');
+    }
+
+    i {
+        :hover {
+            color: $primary-color;
+        }
     }
 }

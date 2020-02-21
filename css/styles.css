@@ -66,11 +66,16 @@ header ul {
           flex-direction: row;
 }
 
+header ul li {
+  cursor: pointer;
+}
+
 header ul button:hover {
   background-color: #888888;
   color: #D35366;
   -webkit-box-shadow: 0 0 5px #383838, 0 0 25px #383838, 0 0 50px #383838, 0 0 100px #383838;
           box-shadow: 0 0 5px #383838, 0 0 25px #383838, 0 0 50px #383838, 0 0 100px #383838;
+  cursor: pointer;
 }
 
 header li a i {
@@ -80,8 +85,8 @@ header li a i {
 }
 
 header li a:hover {
-  background-color: #383838;
   color: #D35366;
+  cursor: pointer;
 }
 
 header .header-form {
@@ -230,6 +235,18 @@ header .header-form input[type=text] {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  z-index: 1;
+}
+
+.cardImg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 3;
+  cursor: pointer;
 }
 
 .cardImg2 {
@@ -238,6 +255,17 @@ header .header-form input[type=text] {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.cardImg2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 2;
+  cursor: pointer;
 }
 
 .category {
@@ -314,6 +342,16 @@ header .header-form input[type=text] {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.hot-ads .img-ad:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
 }
 
 .hot-ads .text {
@@ -336,10 +374,20 @@ header .header-form input[type=text] {
 .hot-ads .text .buttons {
   position: absolute;
   top: 25rem;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 
-.hot-ads .text .buttons i {
+.hot-ads .text i {
   padding-right: 0.5rem;
+}
+
+.hot-ads .text button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
 }
 
 .category-text p {
@@ -576,6 +624,18 @@ header .header-form input[type=text] {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  z-index: 1;
+}
+
+.cardImg:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 3;
+  cursor: pointer;
 }
 
 .cardImg2 {
@@ -584,6 +644,17 @@ header .header-form input[type=text] {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.cardImg2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 2;
+  cursor: pointer;
 }
 
 .category {
@@ -725,13 +796,17 @@ footer .social-links ul {
   background-image: url("/img/bass/kg.jpg");
 }
 
+.card-collection i :hover {
+  color: #D35366;
+}
+
 .shopping-cart {
   width: 70%;
   margin: 5rem auto;
 }
 
 .shopping-cart #bubble-1 {
-  -webkit-animation: middle 1.2s linear infitite;
+  -webkit-animation: middle 1.2s linear infinite;
           animation: middle 1.2s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -739,7 +814,7 @@ footer .social-links ul {
 }
 
 .shopping-cart #bubble-2 {
-  -webkit-animation: middle 1.4s linear infitite;
+  -webkit-animation: middle 1.4s linear infinite;
           animation: middle 1.4s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -747,7 +822,7 @@ footer .social-links ul {
 }
 
 .shopping-cart #bubble-3 {
-  -webkit-animation: middle 1.8s linear infitite;
+  -webkit-animation: middle 1.8s linear infinite;
           animation: middle 1.8s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -763,7 +838,7 @@ footer .social-links ul {
 }
 
 .shopping-cart #big-bubble-left {
-  -webkit-animation: small 1.5s linear infitite;
+  -webkit-animation: small 1.5s linear infinite;
           animation: small 1.5s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -771,7 +846,7 @@ footer .social-links ul {
 }
 
 .shopping-cart #right-note {
-  -webkit-animation: big 2.5s linear infitite;
+  -webkit-animation: big 2.5s linear infinite;
           animation: big 2.5s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;

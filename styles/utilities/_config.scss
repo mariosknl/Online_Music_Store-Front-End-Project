@@ -115,6 +115,14 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 1s;
+    z-index: 1;
+}
+
+.cardImg:hover {
+    transform: scale(1.2);
+    z-index: 3;
+    cursor: pointer;
 }
 
 .cardImg2 {
@@ -123,6 +131,13 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 1s;
+}
+
+.cardImg2:hover {
+    transform: scale(1.2);
+    z-index: 2;
+    cursor: pointer;
 }
 
 //Sections

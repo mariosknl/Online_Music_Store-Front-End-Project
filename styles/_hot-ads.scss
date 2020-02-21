@@ -20,6 +20,12 @@
         background-position: center top;
         background-size: cover;
         background-repeat: no-repeat;
+        transition: transform 1s;
+
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
     }
 
     & .text {
@@ -41,11 +47,16 @@
     .buttons {
         position: absolute;
         top: 25rem;
+        transition: transform 1s;
+        }
 
         i {
             padding-right: 0.5rem;
         }
         
+        button:hover {
+                transform: scale(1.2);
+                cursor: pointer;
     }
     }
 }
