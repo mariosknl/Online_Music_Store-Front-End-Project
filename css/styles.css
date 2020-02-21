@@ -685,7 +685,6 @@ footer {
   width: 100%;
   height: 2rem;
   position: relative;
-  background-color: seagreen;
 }
 
 footer p {
@@ -695,6 +694,7 @@ footer p {
 footer .social-links {
   position: absolute;
   right: 1rem;
+  top: -.8rem;
 }
 
 footer .social-links ul {
@@ -713,6 +713,10 @@ footer .social-links ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+footer .social-links ul li a {
+  font-size: 24px;
 }
 
 .left-column {
