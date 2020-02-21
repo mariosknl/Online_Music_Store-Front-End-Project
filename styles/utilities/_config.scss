@@ -37,6 +37,42 @@
     font-weight: 700;
 }
 
+//Colors 
+
+.basic-color{
+    color: $primary-color;
+}
+
+.secondary-color {
+    color: $secondary-color;
+}
+
+.dark-color {
+    color: $dark-color;
+}
+
+.white-color {
+    color: $white-color;
+}
+
+//Background Colors 
+
+.bg-basic {
+    background-color: $primary-color;
+}
+
+.bg-secondary {
+    background-color: $secondary-color;
+}
+
+.bg-dark {
+    background-color: $dark-color;
+}
+
+.bg-white {
+    background-color: $white-color;
+}
+
 //Buttons
 .btn-primary {
     background-color: $primary-color;
@@ -73,6 +109,14 @@
 .cardImg {
     width: 100%;
     height: 60%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cardImg2 {
+    width: 100%;
+    height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

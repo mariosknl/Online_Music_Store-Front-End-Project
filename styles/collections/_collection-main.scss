@@ -1,0 +1,41 @@
+.left-column {
+margin: 0 auto;
+
+form {
+    padding: .5rem .2rem;
+    margin: .5rem .2rem;
+}
+
+p {
+    padding: .2rem ;
+    margin: .8rem;
+}
+
+ul li {
+    padding: .5rem;
+
+    input[type=checkbox] {
+        margin-right: .3rem;
+    }
+}
+}
+
+.right-column {
+    p{
+        margin: 1rem;
+    }
+
+    i {
+        position: absolute;
+        right: 1rem;
+    }
+
+    .text-collection {
+        margin: 2rem 0;
+
+        p{
+            margin: 2rem 0;
+        }
+    }
+
+}

@@ -25,14 +25,8 @@
     & .text {
         width: 100%;
         margin-top: 1rem;
-    
-
-    h4 {
-            color: $primary-color;
-        }
 
     p {
-            color: $dark-color;
             position: absolute;
             top: 80px;
             line-height: 2.5rem;
@@ -40,7 +34,6 @@
 
     .small {
         width: 17%;
-        color: $dark-color;
         position: absolute;
         top: 22rem;
     }

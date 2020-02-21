@@ -64,11 +64,6 @@ header ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background-color: #888888;
-}
-
-header li a {
-  color: #383838;
 }
 
 header li a i {
@@ -81,7 +76,6 @@ header .header-form {
   position: absolute;
   top: 50%;
   left: 10%;
-  background-color: #888888;
   border-radius: 5px;
   margin: 0 auto;
 }
@@ -150,6 +144,38 @@ header .header-form input[type=text] {
   font-weight: 700;
 }
 
+.basic-color {
+  color: #D35366;
+}
+
+.secondary-color {
+  color: #888888;
+}
+
+.dark-color {
+  color: #383838;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.bg-basic {
+  background-color: #D35366;
+}
+
+.bg-secondary {
+  background-color: #888888;
+}
+
+.bg-dark {
+  background-color: #383838;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
 .btn-primary {
   background-color: #D35366;
   color: #fff;
@@ -189,6 +215,14 @@ header .header-form input[type=text] {
   background-repeat: no-repeat;
 }
 
+.cardImg2 {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .category {
   width: 95%;
   position: relative;
@@ -219,7 +253,6 @@ header .header-form input[type=text] {
 }
 
 .container h3 {
-  color: #888888;
   margin: 1.5rem 0;
   padding: 0 103px;
 }
@@ -230,6 +263,16 @@ header .header-form input[type=text] {
   background-color: #d1caca;
   position: relative;
   margin: 0 auto;
+}
+
+.grid-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+      grid-template-columns: 20% 80%;
+  margin-top: 2rem;
 }
 
 .hot-ads {
@@ -261,12 +304,7 @@ header .header-form input[type=text] {
   margin-top: 1rem;
 }
 
-.hot-ads .text h4 {
-  color: #D35366;
-}
-
 .hot-ads .text p {
-  color: #383838;
   position: absolute;
   top: 80px;
   line-height: 2.5rem;
@@ -274,7 +312,6 @@ header .header-form input[type=text] {
 
 .hot-ads .text .small {
   width: 17%;
-  color: #383838;
   position: absolute;
   top: 22rem;
 }
@@ -450,6 +487,38 @@ header .header-form input[type=text] {
   font-weight: 700;
 }
 
+.basic-color {
+  color: #D35366;
+}
+
+.secondary-color {
+  color: #888888;
+}
+
+.dark-color {
+  color: #383838;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.bg-basic {
+  background-color: #D35366;
+}
+
+.bg-secondary {
+  background-color: #888888;
+}
+
+.bg-dark {
+  background-color: #383838;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
 .btn-primary {
   background-color: #D35366;
   color: #fff;
@@ -489,6 +558,14 @@ header .header-form input[type=text] {
   background-repeat: no-repeat;
 }
 
+.cardImg2 {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .category {
   width: 95%;
   position: relative;
@@ -515,4 +592,115 @@ header .header-form input[type=text] {
 
 footer {
   width: 100%;
+  height: 2rem;
+  position: relative;
+  background-color: seagreen;
+}
+
+footer p {
+  margin-left: 1rem;
+}
+
+footer .social-links {
+  position: absolute;
+  right: 1rem;
+}
+
+footer .social-links ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.left-column {
+  margin: 0 auto;
+}
+
+.left-column form {
+  padding: .5rem .2rem;
+  margin: .5rem .2rem;
+}
+
+.left-column p {
+  padding: .2rem;
+  margin: .8rem;
+}
+
+.left-column ul li {
+  padding: .5rem;
+}
+
+.left-column ul li input[type=checkbox] {
+  margin-right: .3rem;
+}
+
+.right-column p {
+  margin: 1rem;
+}
+
+.right-column i {
+  position: absolute;
+  right: 1rem;
+}
+
+.right-column .text-collection {
+  margin: 2rem 0;
+}
+
+.right-column .text-collection p {
+  margin: 2rem 0;
+}
+
+.card-collection {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 65%;
+      grid-template-columns: 30% 65%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  gap: 3rem;
+  position: relative;
+  margin: 1rem;
+}
+
+.card-collection .img-collection {
+  background-image: url("/img/guitars/gamma1.jpeg");
+}
+
+.card-collection .img2-collection {
+  background-image: url("/img/guitars/caraya c-55.jpeg");
+}
+
+.card-collection .img3-collection {
+  background-image: url("/img/guitars/yamaha cs40.jpg");
+}
+
+.card-collection .img4-collection {
+  background-image: url("/img/guitars/gamma2.jpeg");
+}
+
+.card-collection .img5-collection {
+  background-image: url("/img/bass/gamma.jpeg");
+}
+
+.card-collection .img6-collection {
+  background-image: url("/img/bass/ibanez.jpg");
+}
+
+.card-collection .img7-collection {
+  background-image: url("/img/bass/kg.jpg");
 }

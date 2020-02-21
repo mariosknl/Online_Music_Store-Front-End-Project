@@ -2,10 +2,8 @@
     .container {
         width: 100%;
         position: relative;
-        
 
         h3 {
-            color: $secondary-color;
             margin: 1.5rem 0;
             padding: 0 103px;
         }
@@ -17,4 +15,12 @@
         background-color: rgb(209, 202, 202);
         position: relative;
         margin: 0 auto;
+    }
+
+    .grid-container {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-top: 2rem;
     }

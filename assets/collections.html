@@ -4,11 +4,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/526bcd4356.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
     <title>Collections</title>
 </head>
 
 <body>
 
+    <header class="home-page">
+        <nav>
+            <ul>
+                <li><img src="/img/logo.png" alt=""></li>
+                <li><a href="/index.html" class="normal-text"><i class="fas fa-home normal-text"></i>HOME</a></li>
+                <li><a href="/assets/collections.html" class="normal-text"><i
+                            class="fas fa-dice-four normal-text"></i>COLLECTIONS</a>
+                </li>
+                <li><a href="/assets/cart.html" class="normal-text"><i
+                            class="fas fa-shopping-cart normal-text"></i>SHOPPING
+                        CART</a>
+                </li>
+                <button type="button" class="btn btn-primary normal-text">POST YOUR AD</button>
+                <li><a href="#"><i class="fas fa-envelope-square md-text"></i></a></li>
+                <li><a href="#" class="md-text">Marios Knl</a></li>
+                <li><a href="#"><i class="fas fa-user-circle md-text"></i></a></li>
+            </ul>
+        </nav>
+
+        <form action="#" class="header-form lg-text">
+            <select>
+                <option value="guitars">Guitars</option>
+                <option value="bass">Bass</option>
+                <option value="electric_guitars">Electric Guitars</option>
+                <option value="strings">Strings</option>
+                <option value="cases">Cases</option>
+                <option value="books">Books</option>
+            </select>
+            <input type="search" placeholder="What do you search for?">
+            <input type="text" placeholder="Company Name">
+        </form>
+    </header>
+
+    <main class="container">
+
+        <div class="grid-container">
+            <div class="left-column">
+                <form action="#" class="md-text">
+                    <input type="checkbox" name="new" value="NEW">
+                    <label for="new">NEW</label>
+                    <input type="checkbox" name="used" value="USED">
+                    <label for="used">USED</label>
+                </form>
+                <p class="normal-text text-bold">TYPE</p>
+                <hr>
+                <ul class="xl-text">
+                    <li><input type="checkbox" name="instrument">
+                        <label for="instrument">Instrument</label></li>
+                    <li><input type="checkbox" name="strings">
+                        <label for="strings">Strings</label></li>
+                    <li><input type="checkbox" name="books">
+                        <label for="books">Books</label></li>
+                </ul>
+
+                <p class="normal-text text-bold">KIND</p>
+                <hr>
+                <ul class="xl-text">
+                    <li><input type="checkbox" name="acoustic">
+                        <label for="acoustic">Acoustic</label></li>
+                    <li><input type="checkbox" name="electric">
+                        <label for="electric">Electric</label></li>
+                    <li><input type="checkbox" name="bass">
+                        <label for="bass">Bass</label></li>
+                </ul>
+                <p class="normal-text text-bold">Price Range</p>
+                <hr>
+                <ul class="xl-text">
+                    <li><input type="checkbox" name="low"><label for="low">100$ - 150$</label></li>
+                    <li><input type="checkbox" name="mid"><label for="mid">150$ - 200$</label></li>
+                    <li><input type="checkbox" name="high"><label for="high">200$ - 500$</label></li>
+                    <li><input type="checkbox" name="exp"><label for="exp">500$ - 1000$</label></li>
+                </ul>
+            </div>
+            <div class="right-column">
+                <p class="lg-text text-medium dark-color">5 Results for Guitars Search</p>
+                <hr>
+
+                <div class="card-collection">
+                    <div class="img-collection cardImg2">
+                        <i class="far fa-plus-square md-text"></i>
+                    </div>
+                    <div class="text-collection">
+                        <h5 class="dark-color lg-text text-bold">Gamma Guitars - Thunder</h5>
+                        <h6 class="basic-color md-text basic-color">NEW</h6>
+                        <p class="md-text secondary-color text-light">Thunder is a masterpiece created by Gamma
+                            Guitars Workshop.
+                            Its sound
+                            will make you a rockstar.
+                            It's a handmade instrument crafted with love and careness.</p>
+                        <small class="normal-text">21 Feb, 2020</small>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="card-collection">
+
+                    <div class="img2-collection cardImg2">
+                        <i class="far fa-plus-square md-text"></i>
+                    </div>
+
+                    <div class="text-collection">
+                        <h5 class="dark-color lg-text text-bold">Caraya Classical Guitar</h5>
+                        <h6 class="basic-color md-text basic-color">NEW</h6>
+                        <p class="md-text secondary-color text-light">4/4 Caraya 551BCEQ/N Thin-Body Classical Guitar,
+                            The Caraya
+                            C-551BCEQ
+                            Electric-Classical Guitar has a thinline classical cutaway body with a spruce ...
+                        </p>
+                        <small class="normal-text">21 Feb, 2020</small>
+                    </div>
+                </div>
+
+                <div class="card-collection">
+
+                    <div class="img4-collection  cardImg2">
+                        <i class="far fa-plus-square md-text"></i>
+                    </div>
+
+                    <div class="text-collection">
+                        <h5 class="dark-color lg-text text-bold">Gamma Guitars - Thrasher</h5>
+                        <h6 class="basic-color md-text basic-color">NEW</h6>
+                        <p class="md-text secondary-color text-light">Thrasher is a masterpiece created by Gamma
+                            Guitars
+                            Workshop. Its sound
+                            will make you feel like a rockstar.
+                            It's a handmade instrument crafted with love and careness.</p>
+                        <small class="normal-text">21 Feb, 2020</small>
+                    </div>
+                </div>
+
+                <div class="card-collection">
+
+                    <div class="img6-collection cardImg2">
+                        <i class="far fa-plus-square md-text"></i>
+                    </div>
+                    <div class="text-collection">
+                        <h5 class="dark-color lg-text text-bold">Ibanez xg300-mgs</h5>
+                        <h6 class="basic-color md-text basic-color">NEW</h6>
+                        <p class="md-text secondary-color text-light">Electric guitar Ibanez XG300-MGS. Just as the
+                            metamorphosis
+                            of heavy metal has never stopped, neither do the weapons of engagement. Designed in ..
+                        </p>
+                        <small class="normal-text">21 Feb, 2020</small>
+                    </div>
+                </div>
+
+                <div class="card-collection">
+
+                    <div class="img7-collection cardImg2">
+                        <i class="far fa-plus-square md-text"></i>
+                    </div>
+                    <div class="text-collection">
+                        <h5 class="dark-color lg-text text-bold">KG Guitars Deluxe Bass</h5>
+                        <h6 class="basic-color md-text basic-color">NEW</h6>
+                        <p class="md-text secondary-color text-light">Construction/Scale:Bolt-on 860mm, Bridge: Hipshot,
+                            Body:Ash-Makasa Top, Neck: Maple, Fingerboard: Rosewood, Pickups: Delano, Tuners:
+                            Hipshot</p>
+                        <small class="normal-text">21 Feb, 2020</small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+
+            <p class="normal-text secondary-color">Copyright <i class="fas fa-copyright"></i> 2020 All Rights Reserved.
+                Designed by
+                Marios Kanellopoulos</p>
+            <div class="social-links">
+                <ul>
+                    <li><a href="#"><i class="fab fa-yahoo"></i></a></li>
+                    <li><a href="#"><i class="fas fa-at"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>
