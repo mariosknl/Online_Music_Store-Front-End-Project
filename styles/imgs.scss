@@ -102,23 +102,16 @@
 
     .card {
         position: relative;
-    .card-text {
-        margin-top: 1.5rem;
-        margin-left: 0.5rem;
         
-
-        .card-icons {
-            width: 100%;
-            position: relative;
-            margin-top: 1.5rem;
-            bottom: 1rem;
-            
-
-            & .card-price {
+    &.card-text {
+        width: 100%;
+        position: absolute;
+        margin-top: 1rem;
+        
+        & .card-icons i {
             position: absolute;
-            right: 0.5rem;
-            top: .7rem;
-            }
-    }
+            right: .5rem;
+            bottom: 3.5rem;
+        }
 }
 }

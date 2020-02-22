@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 62.5%;
+  font-family: 'Gotham-Rounded-Light';
 }
 
 ul {
@@ -17,29 +18,29 @@ a {
 }
 
 @font-face {
-  font-family: Gotham-Bold;
+  font-family: 'Gotham-Bold';
   src: url("../fonts/Gotham-Bold.otf");
 }
 
 @font-face {
-  font-family: Gotham-Rounded-Light;
+  font-family: 'Gotham-Rounded-Light';
   src: url("../fonts/Gotham Rounded Light.otf");
 }
 
 @font-face {
-  font-family: Helvetica-Neue-Light;
+  font-family: 'Helvetica-Neue-Light';
   src: url("../fonts/HelveticaNeue.ttc");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: Helvetica-Neue-Medium;
+  font-family: 'Helvetica-Neue-Medium';
   src: url("../fonts/HelveticaNeue.ttc");
   font-weight: 600;
 }
 
 @font-face {
-  font-family: Helvetica-Neue-Bold;
+  font-family: 'Helvetica-Neue-Bold';
   src: url("../fonts/HelveticaNeue.ttc");
   font-weight: 700;
 }
@@ -117,6 +118,62 @@ header .header-form input[type=text] {
   margin-top: 5px;
 }
 
+header .navbar2 {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar1 {
+    display: none;
+  }
+  header .navbar2 {
+    display: block;
+    position: relative;
+  }
+  header .navbar2 .img-logo {
+    width: 70%;
+    margin: 0 auto;
+  }
+  header .navbar2 .img-logo img {
+    width: 100%;
+  }
+  header .navbar2 ul {
+    width: 70%;
+    margin: 0 auto;
+    opacity: 0.7;
+    border-radius: 7px;
+  }
+  header .navbar2 ul li {
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar1 {
+    display: none;
+  }
+  header .navbar2 {
+    display: block;
+    position: relative;
+  }
+  header .navbar2 .img-logo {
+    width: 70%;
+    margin: 0 auto;
+  }
+  header .navbar2 .img-logo img {
+    width: 100%;
+  }
+  header .navbar2 ul {
+    width: 70%;
+    margin: 0 auto;
+    opacity: 0.7;
+    border-radius: 7px;
+  }
+  header .navbar2 ul li {
+    padding-right: 2rem;
+  }
+}
+
 .home-page {
   width: 100%;
   height: 60vh;
@@ -161,6 +218,14 @@ header .header-form input[type=text] {
 
 .text-bold {
   font-weight: 700;
+}
+
+.font-title {
+  font-family: 'Gotham-Bold';
+}
+
+.ul-text {
+  font-family: 'Helvetica-Neue-Bold';
 }
 
 .basic-color {
@@ -231,7 +296,7 @@ header .header-form input[type=text] {
 
 .cardImg {
   width: 100%;
-  height: 60%;
+  height: 50%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -320,10 +385,21 @@ header .header-form input[type=text] {
   margin-top: 2rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    margin-top: 1rem;
+  }
+  .grid-container .left-column {
+    display: none;
+  }
+}
+
 .hot-ads {
   width: 100%;
   height: 30vh;
-  font-family: 'Helvetica-Neue-Medium', 'Helvetica-Neue-Light', 'Helvetica-Neue-Bold';
+  font-family: 'Helvetica-Neue-Medium';
   position: relative;
   display: -ms-grid;
   display: grid;
@@ -388,6 +464,25 @@ header .header-form input[type=text] {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .hot-ads {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    margin-bottom: 15rem;
+  }
+  .hot-ads .text {
+    width: 85%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+  }
+  .hot-ads .text h4 {
+    position: absolute;
+    top: 50px;
+    left: 8%;
+  }
 }
 
 .category-text p {
@@ -494,22 +589,16 @@ header .header-form input[type=text] {
   position: relative;
 }
 
-.card .card-text {
-  margin-top: 1.5rem;
-  margin-left: 0.5rem;
-}
-
-.card .card-text .card-icons {
+.card.card-text {
   width: 100%;
-  position: relative;
-  margin-top: 1.5rem;
-  bottom: 1rem;
+  position: absolute;
+  margin-top: 1rem;
 }
 
-.card .card-text .card-icons .card-price {
+.card.card-text .card-icons i {
   position: absolute;
-  right: 0.5rem;
-  top: .7rem;
+  right: .5rem;
+  bottom: 3.5rem;
 }
 
 .sm-text {
@@ -550,6 +639,14 @@ header .header-form input[type=text] {
 
 .text-bold {
   font-weight: 700;
+}
+
+.font-title {
+  font-family: 'Gotham-Bold';
+}
+
+.ul-text {
+  font-family: 'Helvetica-Neue-Bold';
 }
 
 .basic-color {
@@ -620,7 +717,7 @@ header .header-form input[type=text] {
 
 .cardImg {
   width: 100%;
-  height: 60%;
+  height: 50%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -685,27 +782,28 @@ footer {
   width: 100%;
   height: 2rem;
   position: relative;
+  margin-top: 2rem;
 }
 
 footer p {
-  margin-left: 1rem;
+  position: absolute;
+  left: 2rem;
 }
 
 footer .social-links {
+  width: 20%;
   position: absolute;
-  right: 1rem;
-  top: -.8rem;
+  right: 2rem;
+  top: -.6rem;
 }
 
 footer .social-links ul {
-  width: 100%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -713,10 +811,6 @@ footer .social-links ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-
-footer .social-links ul li a {
-  font-size: 24px;
 }
 
 .left-column {
@@ -810,7 +904,7 @@ footer .social-links ul li a {
 }
 
 .shopping-cart #bubble-1 {
-  -webkit-animation: middle 1.2s linear infinite;
+  -webkit-animation: middle 1.2s linear infitite;
           animation: middle 1.2s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -818,7 +912,7 @@ footer .social-links ul li a {
 }
 
 .shopping-cart #bubble-2 {
-  -webkit-animation: middle 1.4s linear infinite;
+  -webkit-animation: middle 1.4s linear infitite;
           animation: middle 1.4s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -826,7 +920,7 @@ footer .social-links ul li a {
 }
 
 .shopping-cart #bubble-3 {
-  -webkit-animation: middle 1.8s linear infinite;
+  -webkit-animation: middle 1.8s linear infitite;
           animation: middle 1.8s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -842,7 +936,7 @@ footer .social-links ul li a {
 }
 
 .shopping-cart #big-bubble-left {
-  -webkit-animation: small 1.5s linear infinite;
+  -webkit-animation: small 1.5s linear infitite;
           animation: small 1.5s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -850,7 +944,7 @@ footer .social-links ul li a {
 }
 
 .shopping-cart #right-note {
-  -webkit-animation: big 2.5s linear infinite;
+  -webkit-animation: big 2.5s linear infitite;
           animation: big 2.5s linear infitite;
   -webkit-transform-origin: center;
           transform-origin: center;
