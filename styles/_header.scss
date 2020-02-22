@@ -10,8 +10,9 @@ header {
         li {
             cursor: pointer;
         }
+    
 
-        button:hover {
+        input[type="button"]:hover {
             background-color: $secondary-color;
             color: $primary-color;
             box-shadow: 0 0 5px $dark-color,
@@ -21,6 +22,7 @@ header {
             cursor: pointer;
         }
     }
+
 
     li a {
         i {
