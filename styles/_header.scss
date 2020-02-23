@@ -10,17 +10,6 @@ header {
         li {
             cursor: pointer;
         }
-    
-
-        input[type="button"]:hover {
-            background-color: $secondary-color;
-            color: $primary-color;
-            box-shadow: 0 0 5px $dark-color,
-                        0 0 25px $dark-color,
-                        0 0 50px $dark-color,
-                        0 0 100px $dark-color;
-            cursor: pointer;
-        }
     }
 
 
@@ -31,9 +20,17 @@ header {
         }
 
         &:hover {
-            color: $primary-color;
+            color: $dark-color;
             cursor: pointer;
-            
+        }
+
+        .btn:hover {
+            background-color: $dark-color;
+            color: $dark-color;
+            box-shadow: 0 0 5px $dark-color,
+                        0 0 25px $dark-color,
+                        0 0 50px $dark-color,
+                        0 0 100px $dark-color;
         }
     }
 
