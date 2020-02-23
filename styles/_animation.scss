@@ -69,3 +69,16 @@
 }
 
 }
+
+@keyframes form{
+    0%{
+        transform: rotate(0) translateY(-80%);
+        }
+    50%{
+        transform: rotate(0) translateY(80%);
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        }
+}
+

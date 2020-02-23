@@ -20,18 +20,17 @@ header {
         }
 
         &:hover {
-            color: $dark-color;
-            cursor: pointer;
+            color: $primary-color;
         }
 
-        .btn:hover {
+        &.btn:hover {
             background-color: $dark-color;
-            color: $dark-color;
-            box-shadow: 0 0 5px $dark-color,
-                        0 0 25px $dark-color,
-                        0 0 50px $dark-color,
-                        0 0 100px $dark-color;
+            box-shadow: 0 0 5px $secondary-color,
+                        0 0 25px $secondary-color,
+                        0 0 50px $secondary-color,
+                        0 0 100px $secondary-color;
         }
+    }
     }
 
     .header-form {
@@ -42,6 +41,7 @@ header {
         left: 10%;
         border-radius: 5px;
         margin: 0 auto;
+        animation: form 2s forwards 0s ease-in-out;
         
 
         select {
@@ -62,11 +62,10 @@ header {
             margin-top: 5px;
         }
     }
-
     .navbar2 {
         display: none;
     }
-}
+
 
 @media only screen and (max-width: 768px){
     header .navbar1 {

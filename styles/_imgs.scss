@@ -102,16 +102,26 @@
 
     .card {
         position: relative;
+        height: 80%;
         
-    &.card-text {
-        width: 100%;
+    & .card-text {
+        width: 90%;
+        height: 40%;
+        margin: 0 auto;
         position: absolute;
+        top: 57%;
         margin-top: 1rem;
         
+        .card-icons {
+            @include flexBetween(row);
+            position: relative;
+            top: 2rem;
+            left: 1rem;
+        }
         & .card-icons i {
             position: absolute;
-            right: .5rem;
-            bottom: 3.5rem;
+            right: 2rem;
+            
         }
 }
 }

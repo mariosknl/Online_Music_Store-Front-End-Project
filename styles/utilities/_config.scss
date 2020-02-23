@@ -100,7 +100,7 @@
 //Grid
 .cardsGrid {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -119,12 +119,12 @@
 //Card Images 
 .cardImg {
     width: 100%;
-    height: 50%;
+    height: 60%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform 1s;
-    z-index: 1;
+    z-index: 2;
 }
 
 .cardImg:hover {
@@ -148,7 +148,7 @@
     cursor: pointer;
 }
 
-//Sections
+//Sections index.html
 .category {
     width: 95%;
     position: relative;
