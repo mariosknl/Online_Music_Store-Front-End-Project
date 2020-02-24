@@ -3,9 +3,10 @@
 header {
     position: relative;
     ul {
-        width: 100%;
+        width: 90%;
         height: 5rem;
         @include flexBetween(row);
+        margin: 0 auto;
         
         li {
             cursor: pointer;

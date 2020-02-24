@@ -60,11 +60,20 @@
 }
 
 @keyframes middle {
-    from {
-        transform: skewY(120deg);
+    0% {
+        transform: translateY(0%);
     }
-    to {
-        transform: skewY(0deg);
+    25% {
+        transform: translateY(-80%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    75% {
+        transform: translateY(80%);
+    }
+    100% {
+        transform: translateY(0%);
     }
 }
 
