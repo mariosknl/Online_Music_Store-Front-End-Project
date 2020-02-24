@@ -1056,6 +1056,7 @@ footer .social-links ul {
     margin-top: 5rem;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
+    border: 1px solid #000;
   }
   .grid-container .left-column {
     display: none;

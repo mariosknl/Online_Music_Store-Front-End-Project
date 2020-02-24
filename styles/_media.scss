@@ -65,6 +65,7 @@
     .grid-container {
         margin-top: 5rem;
         grid-template-columns: 100%;
+        border: 1px solid #000;
 
         .left-column {
             display: none;
@@ -83,6 +84,8 @@
         }
     }
 
-
+    footer {
+        
+    }
     
 }
