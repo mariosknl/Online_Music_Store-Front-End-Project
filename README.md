@@ -14,7 +14,7 @@ Created an online shop layout by using the design idea of **Mohammed Awad** on B
 
 Live Demo
 ---
-[Live Demo Link](https://raw.githack.com/mariosknl/capstone_project/feature-branch/index.html)
+[Live Demo Link](https://inspiring-lamport-7116de.netlify.com/)
 
 Video Desmostration
 ---
