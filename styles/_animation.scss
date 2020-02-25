@@ -8,21 +8,25 @@
     transform-origin: center;
     transform-box: fill-box;
 }
+
 #bubble-2 {
     animation: middle 1.4s linear infitite;
     transform-origin: center;
     transform-box: fill-box;
 }
+
 #bubble-3 {
     animation: middle 1.8s linear infitite;
     transform-origin: center;
     transform-box: fill-box;
 }
+
 #big-bubble-right{
     animation: small 2s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
 }
+
 #big-bubble-left{
     animation: small 1.5s linear infitite;
     transform-origin: center;
@@ -54,6 +58,7 @@
     from {
         transform: skewY(0deg);
     }
+
     to {
         transform: skewY(120deg); 
     }
@@ -76,7 +81,6 @@
         transform: translateY(0%);
     }
 }
-
 }
 
 @keyframes form{
