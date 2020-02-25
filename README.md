@@ -16,6 +16,8 @@ Live Demo
 ---
 [Live Demo Link](https://raw.githack.com/mariosknl/capstone_project/feature-branch/index.html)
 
+[Video Demonstration](https://www.loom.com/share/1a270c0a79d9414b906c27c20f2d932f)
+
 It is responsive and designed for 2 screen resolution. 
 - **Mobile Version** <= 768px
 - **Desktop Version** >= 1024px
