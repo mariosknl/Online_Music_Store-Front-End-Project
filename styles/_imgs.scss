@@ -105,8 +105,10 @@
         
         
     & .card-text {
-        width: 90%;
-        margin: 0 auto;
+        width: 95%;
+        position: absolute;
+        bottom: 0.5rem;
+        left: 0.5rem;
         
         .card-icons {
             width: 100%;

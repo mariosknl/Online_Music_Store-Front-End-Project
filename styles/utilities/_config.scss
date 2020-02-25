@@ -100,7 +100,7 @@
 //Grid
 .cardsGrid {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -113,13 +113,13 @@
     position: relative;
     border: 1px solid $secondary-color;
     background-color: $white-color;
-    padding-bottom: .5rem;
+    
 }
 
 //Card Images 
 .cardImg {
     width: 100%;
-    height: 55%;
+    height: 50%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -128,7 +128,7 @@
 }
 
 .cardImg:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     z-index: 3;
     cursor: pointer;
 }
@@ -143,7 +143,7 @@
 }
 
 .cardImg2:hover {
-    transform: scale(1.2);
+    transform: scale(1);
     z-index: 2;
     cursor: pointer;
 }
@@ -156,7 +156,6 @@
 }
 
 .category-text {
-    padding-left: 1rem;
     @include flexStart(row);
     padding: 1rem 0;
 }

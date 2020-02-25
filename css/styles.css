@@ -277,10 +277,10 @@ header li a.btn:hover {
 
 .cardsGrid {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) 4;
+  -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   padding-top: 1.5rem;
@@ -291,12 +291,11 @@ header li a.btn:hover {
   position: relative;
   border: 1px solid #888888;
   background-color: #fff;
-  padding-bottom: .5rem;
 }
 
 .cardImg {
   width: 100%;
-  height: 55%;
+  height: 50%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -308,8 +307,8 @@ header li a.btn:hover {
 }
 
 .cardImg:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   z-index: 3;
   cursor: pointer;
 }
@@ -327,8 +326,8 @@ header li a.btn:hover {
 }
 
 .cardImg2:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1);
+          transform: scale(1);
   z-index: 2;
   cursor: pointer;
 }
@@ -340,7 +339,6 @@ header li a.btn:hover {
 }
 
 .category-text {
-  padding-left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -414,8 +412,8 @@ header li a.btn:hover {
 }
 
 .hot-ads .img-ad:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -556,8 +554,10 @@ header li a.btn:hover {
 }
 
 .card .card-text {
-  width: 90%;
-  margin: 0 auto;
+  width: 95%;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
 }
 
 .card .card-text .card-icons {
@@ -675,10 +675,10 @@ header li a.btn:hover {
 
 .cardsGrid {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) 4;
+  -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   padding-top: 1.5rem;
@@ -689,12 +689,11 @@ header li a.btn:hover {
   position: relative;
   border: 1px solid #888888;
   background-color: #fff;
-  padding-bottom: .5rem;
 }
 
 .cardImg {
   width: 100%;
-  height: 55%;
+  height: 50%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -706,8 +705,8 @@ header li a.btn:hover {
 }
 
 .cardImg:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   z-index: 3;
   cursor: pointer;
 }
@@ -725,8 +724,8 @@ header li a.btn:hover {
 }
 
 .cardImg2:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1);
+          transform: scale(1);
   z-index: 2;
   cursor: pointer;
 }
@@ -738,7 +737,6 @@ header li a.btn:hover {
 }
 
 .category-text {
-  padding-left: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
