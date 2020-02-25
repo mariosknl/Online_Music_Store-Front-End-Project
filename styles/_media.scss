@@ -3,7 +3,7 @@
     header .navbar1 {
         display: none;
     }
-    
+
     header .navbar2{
         display: block;
         position: relative;
@@ -86,6 +86,37 @@
             .cardImg2 {
                 height: 80%;
             }
+        }
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    header {
+        .btn {
+            padding: 1rem;
+        }
+    }
+
+    .hot-ads {
+
+        .text {
+            h4 {
+                font-size: 1.9rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+    }
+    }
+
+    .card-text {
+        h1 {
+            font-size: 1.6rem;
+        }
+
+        .card-desc {
+            font-size: 1.2rem;
         }
     }
 }

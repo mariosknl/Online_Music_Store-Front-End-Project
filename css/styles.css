@@ -122,68 +122,6 @@ header li a.btn:hover {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
-  header .navbar1 {
-    display: none;
-  }
-
-  header .navbar2 {
-    display: block;
-    position: relative;
-  }
-
-  header .navbar2 .img-logo {
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  header .navbar2 .img-logo img {
-    width: 100%;
-  }
-
-  header .navbar2 ul {
-    width: 70%;
-    margin: 0 auto;
-    opacity: 0.7;
-    border-radius: 7px;
-  }
-
-  header .navbar2 ul li {
-    padding-right: 2rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  header .navbar1 {
-    display: none;
-  }
-
-  header .navbar2 {
-    display: block;
-    position: relative;
-  }
-
-  header .navbar2 .img-logo {
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  header .navbar2 .img-logo img {
-    width: 100%;
-  }
-
-  header .navbar2 ul {
-    width: 70%;
-    margin: 0 auto;
-    opacity: 0.7;
-    border-radius: 7px;
-  }
-
-  header .navbar2 ul li {
-    padding-right: 2rem;
-  }
-}
-
 .home-page {
   width: 100%;
   height: 60vh;
@@ -446,11 +384,6 @@ footer p {
   margin: 0.8rem;
 }
 
-.right-column i {
-  position: absolute;
-  right: 1rem;
-}
-
 .right-column p {
   margin: 1rem;
 }
@@ -476,13 +409,18 @@ footer p {
   transition: transform 1s, -webkit-transform 1s;
 }
 
+.right-column i {
+  position: absolute;
+  right: 1rem;
+}
+
 .hot-ads .text i {
   padding-right: 0.5rem;
 }
 
 .hot-ads .text button:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -945,6 +883,28 @@ footer .social-links ul {
 
   .grid-container .right-column .cardImg2 {
     height: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header .btn {
+    padding: 1rem;
+  }
+
+  .hot-ads .text h4 {
+    font-size: 1.9rem;
+  }
+
+  .hot-ads .text p {
+    font-size: 1.4rem;
+  }
+
+  .card-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .card-text .card-desc {
+    font-size: 1.2rem;
   }
 }
 
