@@ -7,53 +7,53 @@
     animation: middle 1.2s linear infitite;
     transform-origin: center;
     transform-box: fill-box;
-}
+    }
 
 #bubble-2 {
     animation: middle 1.4s linear infitite;
     transform-origin: center;
     transform-box: fill-box;
-}
+    }
 
 #bubble-3 {
     animation: middle 1.8s linear infitite;
     transform-origin: center;
     transform-box: fill-box;
-}
+    }
 
-#big-bubble-right{
+#big-bubble-right {
     animation: small 2s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
-}
+    }
 
-#big-bubble-left{
+#big-bubble-left {
     animation: small 1.5s linear infitite;
     transform-origin: center;
     transform-box: fill-box;
-}
+    }
 
 #right-note {
     animation: big 2.5s linear infitite;
     transform-origin: center;
     transform-box: fill-box;
-}
+    }
 
 #left-note {
     animation: big 2s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
-}
+    }
 
 @keyframes big {
-    from{
-    transform: rotateZ(0deg);
+    from {
+        transform: rotateZ(0deg);
     }
 
     to {
-    transform: rotateZ(30deg);
+        transform: rotateZ(30deg);
     }
-}
+    }
 
 @keyframes small {
     from {
@@ -63,7 +63,8 @@
     to {
         transform: skewY(120deg); 
     }
-}
+
+    }
 
 @keyframes middle {
     0% {
@@ -81,18 +82,18 @@
     100% {
         transform: translateY(0%);
     }
-}
-}
+    }
 
-@keyframes form{
-    0%{
+
+@keyframes form {
+    0% {
         transform: rotate(0) translateY(-80%);
         }
-    50%{
+    50% {
         transform: rotate(0) translateY(80%);
         }
-    100%{
+    100% {
         transform: rotate(0) translateY(0);
         }
+    }
 }
-
