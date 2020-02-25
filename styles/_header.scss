@@ -1,69 +1,71 @@
 @import 'mixin';
 
 header {
-    position: relative;
-    ul {
-        width: 90%;
-        height: 5rem;
-        @include flexBetween(row);
-        margin: 0 auto;
-        
-        li {
-            cursor: pointer;
-        }
+  position: relative;
+
+  ul {
+    width: 90%;
+    height: 5rem;
+
+    @include flexBetween(row);
+
+    margin: 0 auto;
+
+    li {
+      cursor: pointer;
+    }
+  }
+
+  li a {
+    i {
+      margin-left: 0.8rem;
+      transition: 0.3s;
     }
 
-
-    li a {
-        i {
-            margin-left: 0.8rem;
-            transition: 0.3s;
-        }
-
-        &:hover {
-            color: $primary-color;
-        }
-
-        &.btn:hover {
-            background-color: $dark-color;
-            box-shadow: 0 0 5px $secondary-color,
-                        0 0 25px $secondary-color,
-                        0 0 50px $secondary-color,
-                        0 0 100px $secondary-color;
-        }
-    }
+    &:hover {
+      color: $primary-color;
     }
 
-    .header-form {
-        width: 80%;
-        height: 5rem;
-        position: absolute;
-        top: 50%;
-        left: 10%;
-        border-radius: 5px;
-        margin: 0 auto;
-        animation: form 2s forwards 0s ease-in-out;
-        
-
-        select {
-            width: 19%;
-            height: 80%;
-            margin-top: 5px;
-        }
-
-        input[type=search] {
-            width: 49%;
-            height: 80%;
-            margin-top: 5px;
-        }
-
-        input[type=text] {
-            width: 30%;
-            height: 80%;
-            margin-top: 5px;
-        }
+    &.btn:hover {
+      background-color: $dark-color;
+      box-shadow:
+        0 0 5px $secondary-color,
+        0 0 25px $secondary-color,
+        0 0 50px $secondary-color,
+        0 0 100px $secondary-color;
     }
-    .navbar2 {
-        display: none;
-    }
+  }
+}
 
+.header-form {
+  width: 80%;
+  height: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  border-radius: 5px;
+  margin: 0 auto;
+  animation: form 2s forwards 0s ease-in-out;
+
+  select {
+    width: 19%;
+    height: 80%;
+    margin-top: 5px;
+  }
+
+  input[type=search] {
+    width: 49%;
+    height: 80%;
+    margin-top: 5px;
+  }
+
+  input[type=text] {
+    width: 30%;
+    height: 80%;
+    margin-top: 5px;
+  }
+}
+
+.navbar2 {
+  display: none;
+}

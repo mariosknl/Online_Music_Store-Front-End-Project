@@ -1,161 +1,164 @@
 // Font Sizes
 .sm-text {
-    font-size: 1rem;
-}
-.normal-text{
-    font-size: 1.2rem;
-}
-.md-text{
-    font-size: 1.6rem;
+  font-size: 1rem;
 }
 
-.lg-text{
-    font-size: 2rem;
+.normal-text {
+  font-size: 1.2rem;
+}
+
+.md-text {
+  font-size: 1.6rem;
+}
+
+.lg-text {
+  font-size: 2rem;
 }
 
 .title-text {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
 }
 
 .xl-text {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 //Font Weight
 .text-light {
-    font-weight: 300;
+  font-weight: 300;
 }
-.text-normal{
-    font-weight: 400;
+
+.text-normal {
+  font-weight: 400;
 }
 
 .text-medium {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .text-bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .font-title {
-    font-family: 'Gotham-Bold', sans-serif;
+  font-family: 'Gotham-Bold', sans-serif;
 }
 
 .ul-text {
-    font-family: 'Helvetica-Neue-Bold', sans-serif;
+  font-family: 'Helvetica-Neue-Bold', sans-serif;
 }
 
-//Colors 
+//Colors
 
-.basic-color{
-    color: $primary-color;
+.basic-color {
+  color: $primary-color;
 }
 
 .secondary-color {
-    color: $secondary-color;
+  color: $secondary-color;
 }
 
 .dark-color {
-    color: $dark-color;
+  color: $dark-color;
 }
 
 .white-color {
-    color: $white-color;
+  color: $white-color;
 }
 
-//Background Colors 
+//Background Colors
 
 .bg-basic {
-    background-color: $primary-color;
+  background-color: $primary-color;
 }
 
 .bg-secondary {
-    background-color: $secondary-color;
+  background-color: $secondary-color;
 }
 
 .bg-dark {
-    background-color: $dark-color;
+  background-color: $dark-color;
 }
 
 .bg-white {
-    background-color: $white-color;
+  background-color: $white-color;
 }
 
 //Buttons
 .btn-primary {
-    background-color: $primary-color;
-    color: $white-color;
-    border: none;
-    border-radius: 2px;
-    padding: 0.5rem 0.8rem;
-    cursor: pointer;
-    z-index: 1;
+  background-color: $primary-color;
+  color: $white-color;
+  border: none;
+  border-radius: 2px;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .btn {
-    padding: 1rem 2rem;
-    cursor: pointer;
+  padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 //Grid
 .cardsGrid {
-    width: 100%;
-    height: 60vh;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    padding-top: 1.5rem;
-    margin-bottom: 3rem;
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 //Cards
 .card {
-    position: relative;
-    border: 1px solid $secondary-color;
-    background-color: $white-color;
-    
+  position: relative;
+  border: 1px solid $secondary-color;
+  background-color: $white-color;
 }
 
-//Card Images 
+//Card Images
 .cardImg {
-    width: 100%;
-    height: 50%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: transform 1s;
-    z-index: 2;
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 1s;
+  z-index: 2;
 }
 
 .cardImg:hover {
-    transform: scale(1.1);
-    z-index: 3;
-    cursor: pointer;
+  transform: scale(1.1);
+  z-index: 3;
+  cursor: pointer;
 }
 
 .cardImg2 {
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: transform 1s;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 1s;
 }
 
 .cardImg2:hover {
-    transform: scale(1);
-    z-index: 2;
-    cursor: pointer;
+  transform: scale(1);
+  z-index: 2;
+  cursor: pointer;
 }
 
 //Sections index.html
 .category {
-    width: 95%;
-    position: relative;
-    margin: 0 auto;
+  width: 95%;
+  position: relative;
+  margin: 0 auto;
 }
 
 .category-text {
-    @include flexStart(row);
-    padding: 1rem 0;
+  @include flexStart(row);
+
+  padding: 1rem 0;
 }
