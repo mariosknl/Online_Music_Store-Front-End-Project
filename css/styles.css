@@ -133,7 +133,7 @@ header li a.btn:hover {
   position: relative;
 }
 
-.container h3 {
+.container h1 {
   margin: 1.5rem 0;
   padding: 0 10.3rem;
 }
@@ -819,10 +819,14 @@ footer .social-links ul {
     top: 80%;
     left: 10%;
   }
-  .hot-ads .text h4 {
+  .hot-ads .text h3 {
     position: absolute;
     top: 50px;
-    left: 8%;
+    left: 3%;
+    font-size: 2.8rem;
+  }
+  .hot-ads .text p {
+    font-size: 1.2rem;
   }
   .cardsGrid {
     height: 230vh;
