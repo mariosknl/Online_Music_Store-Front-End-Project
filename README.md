@@ -47,6 +47,7 @@ Feel free to check the issues page.
 - Mohammed Awad for the main layout idea.
 - [Stefan Dili](http://github.com/dili021) for helping me out with cross-browser issues.
 - **Keli Booster** - Github: [@kelibst](https://github.com/kelibst) - Twitter: [@keli_booster](https://twitter.com/keli_booster) - Linkedin: [Kekeli (Jiresse) Dogbevi ](https://www.linkedin.com/in/kekeli-dogbevi-958272108/)
+- [Jorge Fernando Rincon Figueroa] For reviewing the project and with his guidance it reached Mastery Level.
 
 📝 License
 This project is **MIT** licensed.
