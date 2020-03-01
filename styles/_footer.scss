@@ -1,0 +1,23 @@
+footer {
+  width: 100%;
+  height: 2rem;
+  position: relative;
+  margin-top: 0.5rem;
+
+  & p {
+    position: absolute;
+    left: 2rem;
+    font-size: 2.8em;
+  }
+
+  & .social-links {
+    width: 20%;
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+
+    & ul {
+      @include flexBetween(row);
+    }
+  }
+}

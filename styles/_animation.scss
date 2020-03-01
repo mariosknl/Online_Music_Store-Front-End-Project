@@ -1,0 +1,102 @@
+.shopping-cart {
+  width: 100%;
+  margin: 5rem auto;
+
+  #bubble-1 {
+    animation: middle 1.2s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  #bubble-2 {
+    animation: middle 1.4s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  #bubble-3 {
+    animation: middle 1.8s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  #big-bubble-right {
+    animation: small 2s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  #big-bubble-left {
+    animation: small 1.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  #right-note {
+    animation: big 2.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  #left-note {
+    animation: big 2s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+  }
+
+  @keyframes big {
+    from {
+      transform: rotateZ(0deg);
+    }
+
+    to {
+      transform: rotateZ(30deg);
+    }
+  }
+
+  @keyframes small {
+    from {
+      transform: skewY(0deg);
+    }
+
+    to {
+      transform: skewY(120deg);
+    }
+  }
+
+  @keyframes middle {
+    0% {
+      transform: translateY(0%);
+    }
+
+    25% {
+      transform: translateY(-80%);
+    }
+
+    50% {
+      transform: translateY(0%);
+    }
+
+    75% {
+      transform: translateY(80%);
+    }
+
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
+  @keyframes form {
+    0% {
+      transform: rotate(0) translateY(-80%);
+    }
+
+    50% {
+      transform: rotate(0) translateY(80%);
+    }
+
+    100% {
+      transform: rotate(0) translateY(0);
+    }
+  }
+}

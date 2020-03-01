@@ -1,0 +1,962 @@
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("../fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: 'Gotham-Rounded-Light';
+  src: url("../fonts/Gotham Rounded Light.otf");
+}
+
+@font-face {
+  font-family: 'Helvetica-Neue-Light';
+  src: url("../fonts/HelveticaNeue.ttc");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Helvetica-Neue-Medium';
+  src: url("../fonts/HelveticaNeue.ttc");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Helvetica-Neue-Bold';
+  src: url("../fonts/HelveticaNeue.ttc");
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Gotham-Rounded-Light', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #383838;
+  font-family: 'Gotham-Bold', sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+header ul {
+  width: 90%;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+header ul li {
+  cursor: pointer;
+}
+
+header li a i {
+  margin-left: 0.8rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header li a:hover {
+  color: #d35366;
+}
+
+header li a.btn:hover {
+  background-color: #383838;
+  -webkit-box-shadow: 0 0 5px #888, 0 0 25px #888, 0 0 50px #888, 0 0 100px #888;
+  box-shadow: 0 0 5px #888, 0 0 25px #888, 0 0 50px #888, 0 0 100px #888;
+}
+
+.header-form {
+  width: 80%;
+  height: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  border-radius: 5px;
+  margin: 0 auto;
+  -webkit-animation: form 2s forwards 0s ease-in-out;
+  animation: form 2s forwards 0s ease-in-out;
+}
+
+.header-form select {
+  width: 19%;
+  height: 80%;
+  margin-top: 5px;
+}
+
+.header-form input[type=search] {
+  width: 49%;
+  height: 80%;
+  margin-top: 5px;
+}
+
+.header-form input[type=text] {
+  width: 30%;
+  height: 80%;
+  margin-top: 5px;
+}
+
+.navbar2 {
+  display: none;
+}
+
+.home-page {
+  width: 100%;
+  height: 60vh;
+  background: url("../img/audio-e-guitars-guitars-music-6966.jpg") bottom/cover no-repeat;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.container h1 {
+  margin: 1.5rem 0;
+  padding: 0 10.3rem;
+}
+
+.container-inner {
+  width: 100%;
+  height: 100%;
+  background-color: #d1caca;
+  position: relative;
+  margin: 0 auto;
+}
+
+.grid-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+  grid-template-columns: 20% 80%;
+  margin-top: 2rem;
+}
+
+.hot-ads {
+  width: 100%;
+  height: 30vh;
+  font-family: 'Helvetica-Neue-Medium', sans-serif;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 1fr;
+  grid-template-columns: 40% 1fr;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
+  gap: 40px;
+  padding: 0 10.3rem;
+  margin-bottom: 12rem;
+}
+
+.hot-ads .img-ad {
+  width: 100%;
+  background-image: url("/img/guitars/gamma1.jpeg");
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.hot-ads .img-ad:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.hot-ads .text {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+footer p {
+  position: absolute;
+  left: 2rem;
+  font-size: 2.8em;
+}
+
+.left-column ul li {
+  padding: 0.5rem;
+}
+
+.right-column i {
+  position: absolute;
+  right: 1rem;
+}
+
+.left-column p {
+  padding: 0.2rem;
+  margin: 0.8rem;
+}
+
+.right-column p {
+  margin: 1rem;
+}
+
+.hot-ads .text p {
+  position: absolute;
+  top: 80px;
+  line-height: 2.5rem;
+}
+
+.hot-ads .text .small {
+  width: 17%;
+  position: absolute;
+  top: 22rem;
+}
+
+.hot-ads .text .buttons {
+  position: absolute;
+  top: 25rem;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.hot-ads .text i {
+  padding-right: 0.5rem;
+}
+
+.hot-ads .text button:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card1-img {
+  background-image: url("../img/guitars/gamma1.jpeg");
+}
+
+.card2-img {
+  background-image: url("../img/guitars/caraya c-55.jpeg");
+}
+
+.card3-img {
+  background-image: url("../img/guitars/yamaha cs40.jpg");
+}
+
+.card4-img {
+  background-image: url("../img/guitars/gamma2.jpeg");
+}
+
+.card5-img {
+  background-image: url("../img/bass/gamma.jpeg");
+}
+
+.card6-img {
+  background-image: url("../img/bass/ibanez.jpg");
+}
+
+.card7-img {
+  background-image: url("../img/bass/kg.jpg");
+}
+
+.card8-img {
+  background-image: url("../img/bass/yahama.jpg");
+}
+
+.card9-img {
+  background-image: url("../img/guitars/ibanez-eletric.jpg");
+}
+
+.card10-img {
+  background-image: url("../img/guitars/jackson.jpg");
+}
+
+.card11-img {
+  background-image: url("../img/guitars/ibanezrg21.jpg");
+}
+
+.card12-img {
+  background-image: url("../img/guitars/ibanezaw.jpg");
+}
+
+.card13-img {
+  background-image: url("../img/strings/yamaha.jpg");
+}
+
+.card14-img {
+  background-image: url("../img/strings/string.jpeg");
+}
+
+.card15-img {
+  background-image: url("../img/strings/jazz.jpeg");
+}
+
+.card16-img {
+  background-image: url("../img/strings/adagio.jpg");
+}
+
+.card17-img {
+  background-image: url("../img/case/case.jpg");
+}
+
+.card18-img {
+  background-image: url("../img/case/AG3HC-large.jpg");
+}
+
+.card19-img {
+  background-image: url("../img/case/gearlux.jpg");
+}
+
+.card20-img {
+  background-image: url("../img/case/skb.jpg");
+}
+
+.card21-img {
+  background-image: url("../img/books/book.jpg");
+}
+
+.card22-img {
+  background-image: url("../img/books/theory.jpg");
+}
+
+.card23-img {
+  background-image: url("../img/books/classicaljpg.jpg");
+}
+
+.card24-img {
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/51jY0-iHHpL._SX260_.jpg");
+}
+
+.card .card-text {
+  width: 95%;
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.card .card-text .card-icons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.sm-text {
+  font-size: 1rem;
+}
+
+.normal-text {
+  font-size: 1.2rem;
+}
+
+.md-text {
+  font-size: 1.6rem;
+}
+
+.lg-text {
+  font-size: 2rem;
+}
+
+.title-text {
+  font-size: 2.4rem;
+}
+
+.xl-text {
+  font-size: 3rem;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-normal {
+  font-weight: 400;
+}
+
+.text-medium {
+  font-weight: 600;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.font-title {
+  font-family: 'Gotham-Bold', sans-serif;
+}
+
+.ul-text {
+  font-family: 'Helvetica-Neue-Bold', sans-serif;
+}
+
+.basic-color {
+  color: #d35366;
+}
+
+.secondary-color {
+  color: #888;
+}
+
+.dark-color {
+  color: #383838;
+}
+
+.white-color {
+  color: #fff;
+}
+
+.bg-basic {
+  background-color: #d35366;
+}
+
+.bg-secondary {
+  background-color: #888;
+}
+
+.bg-dark {
+  background-color: #383838;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.btn-primary {
+  background-color: #d35366;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.cardsGrid {
+  width: 100%;
+  height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr) 4;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #888;
+  background-color: #fff;
+}
+
+.cardImg {
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  z-index: 2;
+}
+
+.cardImg:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  z-index: 3;
+  cursor: pointer;
+}
+
+.cardImg2 {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.cardImg2:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.category {
+  width: 95%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.category-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 1rem 0;
+}
+
+footer {
+  width: 100%;
+  height: 2rem;
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+footer .social-links {
+  width: 20%;
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+}
+
+footer .social-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.left-column {
+  margin: 0 auto;
+}
+
+.left-column form {
+  padding: 0.5rem 0.2rem;
+  margin: 0.5rem 0.2rem;
+}
+
+.left-column ul li input[type=checkbox] {
+  margin-right: 0.3rem;
+}
+
+.right-column .text-collection {
+  margin: 2rem 0;
+}
+
+.right-column .text-collection p {
+  margin: 2rem 0;
+}
+
+.shopping-cart {
+  width: 100%;
+  margin: 5rem auto;
+}
+
+.shopping-cart #bubble-1 {
+  -webkit-animation: middle 1.2s linear infinite;
+  animation: middle 1.2s linear infinite;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #bubble-2 {
+  -webkit-animation: middle 1.4s linear infinite;
+  animation: middle 1.4s linear infinite;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #bubble-3 {
+  -webkit-animation: middle 1.8s linear infinite;
+  animation: middle 1.8s linear infinite;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #big-bubble-right {
+  -webkit-animation: small 2s linear infinite;
+  animation: small 2s linear infinite;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #big-bubble-left {
+  -webkit-animation: small 1.5s linear infinite;
+  animation: small 1.5s linear infinite;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #right-note {
+  -webkit-animation: big 2.5s linear infinite;
+  animation: big 2.5s linear infinite;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.shopping-cart #left-note {
+  -webkit-animation: big 2s linear infinite;
+  animation: big 2s linear infinite;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@-webkit-keyframes big {
+  from {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+  }
+}
+
+@keyframes big {
+  from {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+  }
+}
+
+@-webkit-keyframes small {
+  from {
+    -webkit-transform: skewY(0deg);
+    transform: skewY(0deg);
+  }
+
+  to {
+    -webkit-transform: skewY(120deg);
+    transform: skewY(120deg);
+  }
+}
+
+@keyframes small {
+  from {
+    -webkit-transform: skewY(0deg);
+    transform: skewY(0deg);
+  }
+
+  to {
+    -webkit-transform: skewY(120deg);
+    transform: skewY(120deg);
+  }
+}
+
+@-webkit-keyframes middle {
+  0% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-80%);
+    transform: translateY(-80%);
+  }
+
+  50% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  75% {
+    -webkit-transform: translateY(80%);
+    transform: translateY(80%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+@keyframes middle {
+  0% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  25% {
+    -webkit-transform: translateY(-80%);
+    transform: translateY(-80%);
+  }
+
+  50% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  75% {
+    -webkit-transform: translateY(80%);
+    transform: translateY(80%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes form {
+  0% {
+    -webkit-transform: rotate(0) translateY(-80%);
+    transform: rotate(0) translateY(-80%);
+  }
+
+  50% {
+    -webkit-transform: rotate(0) translateY(80%);
+    transform: rotate(0) translateY(80%);
+  }
+
+  100% {
+    -webkit-transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
+  }
+}
+
+@keyframes form {
+  0% {
+    -webkit-transform: rotate(0) translateY(-80%);
+    transform: rotate(0) translateY(-80%);
+  }
+
+  50% {
+    -webkit-transform: rotate(0) translateY(80%);
+    transform: rotate(0) translateY(80%);
+  }
+
+  100% {
+    -webkit-transform: rotate(0) translateY(0);
+    transform: rotate(0) translateY(0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .navbar1 {
+    display: none;
+  }
+
+  header .navbar2 {
+    display: block;
+    position: relative;
+  }
+
+  header .navbar2 .img-logo {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  header .navbar2 .img-logo img {
+    width: 100%;
+  }
+
+  header .navbar2 ul {
+    width: 80%;
+    margin: 20em auto;
+    opacity: 0.7;
+    border-radius: 7px;
+  }
+
+  header .navbar2 ul li {
+    padding-right: 1em;
+  }
+
+  header .navbar2 ul #header-btn {
+    padding: 1em;
+  }
+
+  .container h1 {
+    font-size: 6em;
+    padding: 0.5em;
+  }
+
+  .hot-ads {
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+    margin-bottom: 15rem;
+  }
+
+  .hot-ads .text {
+    width: 85%;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+  }
+
+  .hot-ads .text h3 {
+    position: absolute;
+    top: 50px;
+    left: 3%;
+    font-size: 12em;
+  }
+
+  .category-text p {
+    margin-left: 0.5rem;
+  }
+
+  .hot-ads .text p {
+    font-size: 1.2rem;
+  }
+
+  .cardsGrid {
+    height: 230vh;
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .cardsGrid .card {
+    height: 100%;
+    height: 70%;
+  }
+
+  .cardsGrid .card .card-text {
+    padding: 0.5rem 1rem;
+  }
+
+  .grid-container {
+    margin-top: 5rem;
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .grid-container .left-column {
+    display: none;
+  }
+
+  .grid-container .right-column {
+    width: 100%;
+    -ms-grid-columns: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .grid-container .right-column .cardImg2 {
+    height: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header .btn {
+    padding: 1rem;
+  }
+
+  .hot-ads .text h4 {
+    font-size: 1.9rem;
+  }
+
+  .hot-ads .text p {
+    font-size: 1.4rem;
+  }
+
+  .card-text h1 {
+    font-size: 1.6rem;
+  }
+
+  .card-text .card-desc {
+    font-size: 1.2rem;
+  }
+}
+
+.card-collection {
+  width: 100%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 65%;
+  grid-template-columns: 30% 65%;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
+  gap: 3rem;
+  position: relative;
+  margin: 1rem;
+}
+
+.card-collection .img-collection {
+  background-image: url("/img/guitars/gamma1.jpeg");
+}
+
+.card-collection .img2-collection {
+  background-image: url("/img/guitars/caraya c-55.jpeg");
+}
+
+.card-collection .img3-collection {
+  background-image: url("/img/guitars/yamaha cs40.jpg");
+}
+
+.card-collection .img4-collection {
+  background-image: url("/img/guitars/gamma2.jpeg");
+}
+
+.card-collection .img5-collection {
+  background-image: url("/img/bass/gamma.jpeg");
+}
+
+.card-collection .img6-collection {
+  background-image: url("/img/bass/ibanez.jpg");
+}
+
+.card-collection .img7-collection {
+  background-image: url("/img/bass/kg.jpg");
+}
