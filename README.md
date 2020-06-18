@@ -1,7 +1,7 @@
 # capstone_project
 **Capstone Project** - *Online Shop for Music Instruments*
 
-Created an online shop layout by using the design idea of **Mohammed Awad** on Behance. I followed the standard preferences as showed in the official template like using certain fonts/ Typography and the basic colors. Last but not least the basic layout is based on this template.
+Created an online shop layout by using the design idea of **Mohammed Awad** on Behance. I followed most of the preferences indicated the official template, including the use of fonts and colors.. Last but not least the basic layout is based on this template.
 
 <img width="1640" alt="Screenshot 2020-02-24 at 12 16 40 PM" src="https://user-images.githubusercontent.com/50610396/75144425-8d919900-56ff-11ea-9422-b56a1d30015f.png">
 
